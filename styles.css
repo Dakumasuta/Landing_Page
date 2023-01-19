@@ -97,7 +97,7 @@ button {
     margin-top: 50px;
     margin-bottom: 80px;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
     align-content: center;
 }
@@ -109,9 +109,17 @@ button {
 }
 
 .placeholder {
-  display: flex;
-  height: 250px;
-  margin-left: auto;
+    display: flex;
+    flex-shrink: 0;
+    width:450px;
+    height:250px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    align-self: center;
+    color: white;
+    font-size: 12px;
 }
 
 .container1 {
